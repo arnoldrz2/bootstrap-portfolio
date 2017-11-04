@@ -1,0 +1,103 @@
+/* general */
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 34px;
+  color: #777;
+  background: url("../images/concrete_seamless.png");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-bottom: 20px;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-weight: 700;
+  color: #4aaaa5;
+}
+
+h1 {
+  padding-bottom: 20px;
+  font-size: 30px;
+  line-height: 49px;
+  border-bottom: 3px solid #ddd;
+}
+
+h2,
+h3 {
+  font-size: 22px;
+}
+/* general */
+
+/* header */
+
+.container-fluid {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  clear: both;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.navbar-collapse{
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+
+.navbar-default {
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  margin: 0 0 30px;
+  overflow: auto;
+  color: #fff;
+  background: #fff;
+  border-bottom: 2px solid #ccc;
+}
+
+#logo {
+  width: 440px;
+  height: 90px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 60px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  background: #4aaaa5;
+  margin-left: 0px;
+}
+
+
+.navbar-default .navbar-nav>li>a {
+  margin-top: 35px;
+  color: #999;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  border-left: 1px solid #efefef;
+}
+
+#about {
+  border-left: 0 none;
+}
+
+/* header */
+
+
