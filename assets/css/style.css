@@ -47,13 +47,8 @@ h3 {
 
 
 /* header */
-.container-fluid {
-  width: 100%;
+.container {
   max-width: 960px;
-  margin: 0 auto;
-  clear: both;
-  padding-left: 0px;
-  padding-right: 0px;
 }
 
 .navbar-collapse{
@@ -66,8 +61,6 @@ h3 {
   position: fixed;
   z-index: 99;
   width: 100%;
-  margin: 0 0 30px;
-  overflow: auto;
   color: #fff;
   background: #fff;
   border-bottom: 2px solid #ccc;
@@ -98,6 +91,7 @@ h3 {
 
 #about {
   border-left: 0 none;
+  padding-right: 15px;
 }
 
 /* header */
@@ -110,13 +104,11 @@ h3 {
 }
 .main-section {
   padding: 30px;
-  margin: 0 0 40px;
+  margin: 0 0px 40px 0px;
   background: #fff;
   border: 1px solid #ddd;
 }
-#about {
-  padding-right: 0px;
-}
+
 .auth-image {
   float: left;
   width: 200px;
@@ -129,13 +121,10 @@ h3 {
 /* portfolio page */
 .work {
   position: relative;
-  width: 274px;
   margin: 20px 0 25px;
-  overflow: auto;
-}
+  padding-left: 0px;
+  padding-right: 0px;
 
-.work:nth-child(even) {
-  margin-right: 40px;
 }
 
 .work img {
@@ -157,6 +146,8 @@ h3 {
   background: #4aaaa5;
   border-bottom: 0;
 }
+
+
 
 /* portfolio page */
 
@@ -209,9 +200,6 @@ input[type=submit] {
 
 /* sidebar */
 .sidebar {
-  float: right;
-  width: 100%;
-  max-width: 270px;
   padding: 30px;
   margin-bottom: 20px;
   background: #fff;
@@ -227,8 +215,8 @@ h3,
 }
 
 .social {
-  width: 62px;
-  height: 62px;
+  width: 65.9px;
+  height: 65.9px;
   margin-top: 8px;
   margin-right: 5px;
 }
@@ -237,9 +225,7 @@ h3,
   margin-right: 0;
 }
 
-#connect {
-  padding-left: 0px;
-}
+
 /* sidebar */
 
 
@@ -257,3 +243,15 @@ footer {
 }
 /* footer */
 
+
+
+/*Media Queries*/
+
+/* Medium Devices, Desktops */
+/*@media only screen and (max-width : 980px) {}*/
+
+/* Small Devices, Tablets */
+/*@media only screen and (max-width : 768px) {}*/
+
+/* Extra Small Devices, Phones */ 
+/*@media only screen and (max-width : 640px) {}*/
